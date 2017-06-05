@@ -1,0 +1,271 @@
+body {
+    font: Tahoma, Arial;
+}
+
+/** CSS GLOBAL **/
+.text {
+    color: #fff;
+}
+
+.headline {
+    color: #fff;
+}
+
+.topo {
+    background-color: #000;
+    height: 2.5rem;
+    color: #fff;
+}
+
+.item-email {
+    padding-top: 0.5rem;
+}
+
+.item-phone {
+    padding-top: 0.5rem;
+    padding-left: 5.0rem;
+}
+
+.item-redes {
+    padding-top: 0.5rem;
+    padding-left: 15.0rem;
+}
+.topo i.fa-envelope {
+    padding-right: 0.3rem;
+    color: #7d0100;
+}
+
+.topo i.fa-phone {
+    padding-right: 0.3rem;
+    color: #7d0100;
+}
+
+.topo i.fa-facebook-square {
+    color: #fff;
+}
+
+.topo i.fa-facebook-square:hover {
+    color: #7d0100;
+}
+
+.topo i.fa-linkedin-square {
+    color: #fff;
+}
+
+.topo i.fa-linkedin-square:hover {
+    color: #7d0100;
+}
+
+.header {
+    background-color: #7d0100;
+    height: 100px;
+    
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 2.3rem;
+}
+
+.menu {
+    margin-top: 2.0rem;
+}
+
+.menu ul li a {
+    color:  #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menu ul li a:hover {
+    background-color: #000;
+    border-radius: 7%;
+}
+
+
+/* Features */
+.feature {
+	padding:1rem 0;
+}
+
+.feature .row .col-lg-4 {
+	padding:3rem;
+}
+
+
+.feature .feature-item .fa {
+    position: absolute;
+	padding-bottom: 0rem;
+}
+
+.feature .feature-item .feature-heading {
+	margin-left: 3rem;
+}
+
+.feature .feature-item .feature-heading .headline {
+	font-size: 1rem;
+	color: #000;
+	text-transform: uppercase;
+	margin-left: 2rem;
+}
+
+.feature .feature-item .feature-heading .text {
+	color: #000;
+    margin-left: 1rem;
+}
+
+/* Footer */
+.footer {
+	padding: 5rem 0;
+	background-color: #000;
+}
+.footer .col {
+    margin-top: 2rem;
+	margin-left: 5rem;
+}
+.footer .col .headline {
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-left: 2.3rem;
+}
+
+/** CONTATO **/
+.contato {
+    background-color: #7d0100;
+}
+			
+form .button
+			{
+				font-size: 1.4em;
+			}
+		
+form input.text,
+form select,
+form textarea
+			{
+				position: relative;
+				-webkit-appearance: none;
+				display: block;
+				border: 0;
+				background-color: #000;
+				width: 100%;
+				margin: 0.5em 0em;
+				padding: 1.50em 1em;
+				box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
+				border: solid 1px rgba(0,0,0,0.10);
+				-moz-transition: all 0.35s ease-in-out;
+				-webkit-transition: all 0.35s ease-in-out;
+				-o-transition: all 0.35s ease-in-out;
+				-ms-transition: all 0.35s ease-in-out;
+				transition: all 0.35s ease-in-out;
+				font-family: 'Pontano Sans', sans-serif;
+				font-size: 1.2em;
+				outline: none;
+                width: 35rem;
+                color: #fff;
+			}
+
+form input.text:hover,
+form select:hover,
+form textarea:hover
+				{
+				}
+
+form input.text:focus,
+form select:focus,
+form textarea:focus
+				{
+					box-shadow: 0 0 2px 1px #E0E0E0;
+					background: #fff;
+                    color: #000;
+				}
+				
+form textarea
+				{
+					min-height: 12em;
+				}
+
+
+#newsletter
+	{
+		overflow: hidden;
+		padding: 2em 0em 2em 0em;
+		text-align: center;
+	}
+	
+#newsletter .title
+	{
+		margin-bottom: 2em;
+	}
+	
+#newsletter .title h2
+	{
+		color: #fff;
+	}
+	
+#newsletter .content
+	{
+		width: 45%;
+		margin: 0px auto;
+	}
+
+.btn-custom {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn-custom:hover {
+    color: #7d0100;
+}
+
+/** PAGINA PORTIFOLIO **/
+.portifolio .row {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.portifolio h2.headline {
+    color: #000;
+    padding-top: 2rem;
+    padding-left: 21rem;
+}
+
+/** PAGINA CONTATO **/
+.mapa {
+     padding-top: 2.5rem;   
+}
+
+.title_contato h2.headline {
+    color: #000;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+
+/* media queries */
+@media (max-width: 480px) {
+    
+/* Feature */
+	.feature .container{
+		margin-top: -4rem;
+	}
+    
+/* Portifolio */
+	.portifolio .container{
+		margin-top: -4rem;
+	}
+
+}
+
+/* media queries */
+@media (max-width: 991px) {
+	.navbar-collapse {
+		position: relative;
+		z-index: 999;
+		background-color: #000;
+	}
+}
+
+
