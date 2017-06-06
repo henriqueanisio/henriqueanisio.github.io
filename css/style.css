@@ -261,15 +261,12 @@ form textarea
 
 /* media queries */
 @media (max-width: 480px) {
+	
+/* TOPO */
 	.topo {
 		height: 6.5rem !important;
 	}
-        
-/* Feature */
-	.feature .container{
-		margin-top: -4rem;
-	}
-    
+         
 /* Portifolio */
 	.portifolio .container{
 		margin-top: -4rem;
@@ -283,6 +280,7 @@ form textarea
 
 /* media queries */
 @media (max-width: 990px) {
+/* TOPO */
 	.topo {
 		height: 6.5rem !important;
 	}
@@ -290,6 +288,8 @@ form textarea
 
 /* media queries */
 @media (max-width: 991px) {
+	
+/* TOPO */
     .item-email {
     }
 
@@ -300,7 +300,8 @@ form textarea
     .item-redes {
         padding-left: 10.0rem !important;
     }
-    
+	
+/* MENU */
 	.navbar-collapse {
 		position: relative;
         z-index: 1;
