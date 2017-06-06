@@ -192,7 +192,8 @@ form textarea:focus
 				
 form textarea
 				{
-					min-height: 12em;
+					min-height: 12rem;
+                    min-width: 17.5rem;
 				}
 
 
@@ -224,6 +225,7 @@ form textarea
     color: #fff;
     font-weight: bold;
     font-size: 1rem;
+    min-width: 17.5rem;
 }
 
 .btn-custom:hover {
@@ -233,12 +235,19 @@ form textarea
 /** PAGINA PORTIFOLIO **/
 .portifolio .row {
     padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
 }
 .portifolio h2.headline {
     color: #000;
-    padding-top: 2rem;
     padding-left: 21rem;
+}
+
+.portifolio img {
+    cursor: pointer;
+}
+
+.portifolio img:hover {
+    border: 2px solid #000;
 }
 
 /** PAGINA CONTATO **/
@@ -255,7 +264,7 @@ form textarea
 
 /* media queries */
 @media (max-width: 480px) {
-    
+        
 /* Feature */
 	.feature .container{
 		margin-top: -4rem;
@@ -265,16 +274,44 @@ form textarea
 	.portifolio .container{
 		margin-top: -4rem;
 	}
+    .portifolio h2.headline {
+        padding-top: 5rem;
+        padding-left: 1rem !important;
+}
 
 }
 
 /* media queries */
 @media (max-width: 991px) {
+    .item-email {
+    }
+
+    .item-phone {
+        padding-left: 0 !important;
+    }
+
+    .item-redes {
+        padding-left: 10.0rem !important;
+    }
+    
 	.navbar-collapse {
 		position: relative;
-		z-index: 999;
+        z-index: 1;
+        text-align: center;
 		background-color: #000;
 	}
+    
+   .navbar-collapse a:hover {
+        color: #7d0100;
+    }
+    
+    i.fa-bars {
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        color: #FFF;
+    }
+    
 }
 
 
