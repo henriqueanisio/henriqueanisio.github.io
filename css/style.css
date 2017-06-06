@@ -242,11 +242,11 @@ form textarea
     padding-left: 21rem;
 }
 
-.portifolio img {
+.portifolio.img-custom {
     cursor: pointer;
 }
 
-.portifolio img:hover {
+.portifolio.img-custom:hover {
     border: 2px solid #000;
 }
 
