@@ -261,6 +261,9 @@ form textarea
 
 /* media queries */
 @media (max-width: 480px) {
+	.topo {
+		height: 6.5rem !important;
+	}
         
 /* Feature */
 	.feature .container{
