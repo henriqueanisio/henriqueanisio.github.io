@@ -260,7 +260,7 @@ form textarea
 
 
 /* media queries */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 	.topo {
 		height: 6.5rem !important;
 	}
@@ -279,6 +279,11 @@ form textarea
         padding-left: 1rem !important;
 }
 
+}
+
+/* media queries */
+@media (max-width: 768px) {
+		
 }
 
 /* media queries */
