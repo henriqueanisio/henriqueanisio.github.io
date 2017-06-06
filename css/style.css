@@ -280,10 +280,6 @@ form textarea
 
 /* media queries */
 @media (max-width: 768px) {
-/* TOPO */
-	.topo {
-		height: 6.5rem !important;
-	}
 }
 
 /* media queries */
