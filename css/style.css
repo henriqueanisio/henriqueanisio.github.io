@@ -134,7 +134,9 @@ body {
 .contato {
     background-color: #7d0100;
 }
-			
+
+/** FORMULARIO **/
+
 form .button
 			{
 				font-size: 1.4em;
@@ -165,6 +167,9 @@ form textarea
                 width: 35rem;
                 color: #fff;
 			}
+::-webkit-input-placeholder  { color:#FFF; }
+input:-moz-placeholder { color:#FFF; }
+textarea:-moz-placeholder { color:#FFF; }
 
 form input.text:hover,
 form select:hover,
