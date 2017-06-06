@@ -171,9 +171,9 @@ form textarea
 input:-moz-placeholder { color:#FFF; }
 textarea:-moz-placeholder { color:#FFF; }
 
-::-webkit-input-placeholder:hover  { color:#000; }
-input:-moz-placeholder:hover { color:#000; }
-textarea:-moz-placeholder:hover { color:#000; }
+::-webkit-input-placeholder:focus  { color:#000; }
+input:-moz-placeholder:focus { color:#000; }
+textarea:-moz-placeholder:focus { color:#000; }
 
 form input.text:hover,
 form select:hover,
