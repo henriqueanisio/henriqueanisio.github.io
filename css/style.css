@@ -274,16 +274,18 @@ form textarea
 	.portifolio .container{
 		margin-top: -4rem;
 	}
-    .portifolio h2.headline {
-        padding-top: 5rem;
-        padding-left: 1rem !important;
+    	.portifolio h2.headline {
+       	 	padding-top: 5rem;
+        	padding-left: 1rem !important;
 }
 
 }
 
 /* media queries */
 @media (max-width: 768px) {
-		
+	.topo {
+		height: 6.5rem !important;
+	}
 }
 
 /* media queries */
