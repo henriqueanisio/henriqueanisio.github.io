@@ -7,6 +7,7 @@ body {
   background: #000;
 }
 
+
 .container {
   margin: 0 auto;
   width: 50%;
@@ -14,10 +15,28 @@ body {
   background: #fff;
 }
 
-.conteudo {
-  margin: 0 auto;
+header {
+  text-align: center;
+  padding: 20px 0;
 }
 
 .nome {
-  margin-left: 70px;
+  padding-left: 70px;
 }
+
+h1 {
+  text-align: center;	
+  font-family: Arial Black;
+  padding-bottom: 10px
+}
+
+.botoes {
+  padding: 5px 0;
+  padding-left: 100px;
+}
+
+#apagar {
+  margin-top: 5px;
+  margin-left: 40%;
+}
+
