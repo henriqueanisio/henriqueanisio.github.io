@@ -44,66 +44,68 @@ $(document).ready(function(){
 </head>
 <body>
 <div class="container">
-	Nome do cliente:
-		<input type="text" class="nome" ng-model="nome">
-	<p>Marca e modelo do modem: 
-		<input type="text" ng-model="modem"></p>
+	<div class="conteudo">
+		Nome do cliente:
+			<input type="text" class="nome" ng-model="nome">
+		<p>Marca e modelo do modem: 
+			<input type="text" ng-model="modem"></p>
 
-	<h1> Qual o problema do cliente? </h1>
-		<p> 	
-			<button id="config" > Sem acesso/Configuração </button> 
-			<button id="aut" > Erro de autenticação </button>
-			<button id="lento" > Internet Lenta </button> 
-		</p>
-		<p> 	
-			<button id="ant" > Instalação do Antivirus </button>
-		</p>
-			
-	<div class="raut">
-		<p>Falei com o Sr(a) {{ nome }}
-		</br> Modem: {{ modem }}
-		</br> @ Vermelho 
-		</br> Feito powercyle 
-		</br> Encaminhado para a velox.</p>
+		<h1> Qual o problema do cliente? </h1>
+			<p> 	
+				<button id="config" > Sem acesso/Configuração </button> 
+				<button id="aut" > Erro de autenticação </button>
+				<button id="lento" > Internet Lenta </button> 
+			</p>
+			<p> 	
+				<button id="ant" > Instalação do Antivirus </button>
+			</p>
+
+		<div class="raut">
+			<p>Falei com o Sr(a) {{ nome }}
+			</br> Modem: {{ modem }}
+			</br> @ Vermelho 
+			</br> Feito powercyle 
+			</br> Encaminhado para a velox.</p>
+		</div>
+
+		<div class="rconfig">
+			<p>Falei com o Sr(a) {{ nome }}
+			</br> Modem: {{ modem }}
+			</br> Luzes OK
+			</br> Feito powercyle 
+			</br> Icone de rede: Sem acesso a internet 
+			</br>Acesso a firmware OK
+			</br> Feita configuração
+			</br> Normalizado </p>
+		</div>
+
+		<div class="rlento">
+			<p>Falei com o Sr(a) {{ nome }}
+			</br> Modem: {{ modem }}
+			</br> Luzes OK
+			</br> Feito powercycle
+			</br> Fiz acesso remoto
+			</br> Acesso a firmware OK
+			</br> Fixado DNS
+			</br> Alterado canal do wifi
+			</br> Desativado WPS 
+			</br> Teste de velocidade # de # contratados
+			</br> Encaminhado para a velox</p>
+		</div>
+
+		<div class="rant">
+			<p>Falei com o Sr(a) {{ nome }}
+			</br> Modem: {{ modem }}
+			</br> Luzes OK
+			</br> Fiz acesso remoto
+			</br> Criado ponto de restauração
+			</br> Desinstalado antivirus 
+			</br> Resetado senha da conta oi
+			</br> Deixei instalando o McAfee </p>
+		</div>
+
+		<button id="apagar" > Apagar Procedimentos </button>
 	</div>
-
-	<div class="rconfig">
-		<p>Falei com o Sr(a) {{ nome }}
-		</br> Modem: {{ modem }}
-		</br> Luzes OK
-		</br> Feito powercyle 
-		</br> Icone de rede: Sem acesso a internet 
-		</br>Acesso a firmware OK
-		</br> Feita configuração
-		</br> Normalizado </p>
-	</div>
-
-	<div class="rlento">
-		<p>Falei com o Sr(a) {{ nome }}
-		</br> Modem: {{ modem }}
-		</br> Luzes OK
-		</br> Feito powercycle
-		</br> Fiz acesso remoto
-		</br> Acesso a firmware OK
-		</br> Fixado DNS
-		</br> Alterado canal do wifi
-		</br> Desativado WPS 
-		</br> Teste de velocidade # de # contratados
-		</br> Encaminhado para a velox</p>
-	</div>
-
-	<div class="rant">
-		<p>Falei com o Sr(a) {{ nome }}
-		</br> Modem: {{ modem }}
-		</br> Luzes OK
-		</br> Fiz acesso remoto
-		</br> Criado ponto de restauração
-		</br> Desinstalado antivirus 
-		</br> Resetado senha da conta oi
-		</br> Deixei instalando o McAfee </p>
-	</div>
-
-<button id="apagar" > Apagar Procedimentos </button>
 </div>
 </body>
 </html>
