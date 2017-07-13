@@ -11,6 +11,12 @@
 
 <script>
 $(document).ready(function(){
+    $("#apagar").click(function(){
+        $(".raut").hide();
+	$(".rconfig").hide();
+	$(".rant").hide();     
+    });
+
 	$(".raut").hide(); 
     $("#aut").click(function(){
         $(".raut").show();
@@ -70,6 +76,8 @@ $(document).ready(function(){
 		</br> Resetado senha da conta oi
 		</br> Deixei instalando o McAfee </p>
 	</div>
+
+<button id="apagar" > Apagar Procedimentos </button>
 
 </body>
 </html>
