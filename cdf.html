@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="style.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/angular-1.0.1.min.js"></script>
+<script src="angular-1.0.1.min.js"></script>
 
 <script>
 $(document).ready(function(){
@@ -45,11 +45,12 @@ $(document).ready(function(){
 <body>
 <div class="container">
 	<div class="conteudo">
-		Nome do cliente:
-			<input type="text" class="nome" ng-model="nome">
-		<p>Marca e modelo do modem: 
-			<input type="text" ng-model="modem"></p>
-
+		<header>
+			Nome do cliente:
+				<input type="text" class="nome" ng-model="nome">
+			<p>Marca e modelo do modem: 
+				<input type="text" ng-model="modem"></p>
+		</header>
 		<h1> Qual o problema do cliente? </h1>
 			<p> 	
 				<button id="config" > Sem acesso/Configuração </button> 
@@ -95,8 +96,6 @@ $(document).ready(function(){
 
 		<div class="rant">
 			<p>Falei com o Sr(a) {{ nome }}
-			</br> Modem: {{ modem }}
-			</br> Luzes OK
 			</br> Fiz acesso remoto
 			</br> Criado ponto de restauração
 			</br> Desinstalado antivirus 
