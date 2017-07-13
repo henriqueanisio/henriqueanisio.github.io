@@ -20,6 +20,11 @@ $(document).ready(function(){
     $("#config").click(function(){
         $(".rconfig").show();
     });
+	
+	$(".rant").hide(); 
+    $("#ant").click(function(){
+        $(".rant").show();
+    });
       
 });
 
@@ -33,7 +38,8 @@ $(document).ready(function(){
 
 	<h1> Qual o problema do cliente? </h1>
 		<p> <button id="config" > Sem acesso/Configuração </button> 
-		<button id="aut" > Erro de autenticação </button></p>
+		<button id="aut" > Erro de autenticação </button>
+		<button id="ant" > Instalação do Antivirus </button></p>
 			
 	<div class="raut">
 		<p>Falei com o Sr(a) {{ nome }}
@@ -52,6 +58,17 @@ $(document).ready(function(){
 		</br>Acesso a firmware OK
 		</br> Feita configuração
 		</br> Normalizado </p>
+	</div>
+
+	<div class="rant">
+		<p>Falei com o Sr(a) {{ nome }}
+		</br> Modem: {{ modem }}
+		</br> Luzes OK
+		</br> Fiz acesso remoto
+		</br> Criado ponto de restauração
+		</br> Desinstalado antivirus 
+		</br> Resetado senha da conta oi
+		</br> Deixei instalando o McAfee </p>
 	</div>
 
 </body>
