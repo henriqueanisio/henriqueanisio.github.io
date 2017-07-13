@@ -46,18 +46,18 @@ $(document).ready(function(){
 <div class="container">
 	<div class="conteudo">
 		<header>
-			Nome do cliente:
-				<input type="text" class="nome" ng-model="nome">
-			<p>Marca e modelo do modem: 
-				<input type="text" ng-model="modem"></p>
+		Nome do cliente:
+			<input type="text" class="nome" ng-model="nome">
+		<p>Marca e modelo do modem: 
+			<input type="text" ng-model="modem"></p>
 		</header>
 		<h1> Qual o problema do cliente? </h1>
-			<p> 	
+			<p class="botoes"> 	
 				<button id="config" > Sem acesso/Configuração </button> 
 				<button id="aut" > Erro de autenticação </button>
 				<button id="lento" > Internet Lenta </button> 
 			</p>
-			<p> 	
+			<p class="botoes"> 	
 				<button id="ant" > Instalação do Antivirus </button>
 			</p>
 
@@ -96,6 +96,8 @@ $(document).ready(function(){
 
 		<div class="rant">
 			<p>Falei com o Sr(a) {{ nome }}
+			</br> Modem: {{ modem }}
+			</br> Luzes OK
 			</br> Fiz acesso remoto
 			</br> Criado ponto de restauração
 			</br> Desinstalado antivirus 
