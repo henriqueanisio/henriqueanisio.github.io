@@ -6,8 +6,7 @@
 	<title>RickDesign</title>
 	<link rel="stylesheet" href="style.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="http://code.angularjs.org/1.0.1/angular-1.0.1.min.js"></script>
 
 <script>
@@ -27,34 +26,33 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-Nome do cliente:
-<input type="text" class="nome" ng-model="nome">
-<p>Marca e modelo do modem: 
-<input type="text" ng-model="modem"></p>
+	Nome do cliente:
+		<input type="text" class="nome" ng-model="nome">
+	<p>Marca e modelo do modem: 
+		<input type="text" ng-model="modem"></p>
 
-<h1> Qual o problema do cliente? </h1>
-<p> <button id="config" > Sem acesso/Configuração </button> 
-<button id="aut" > Erro de autenticação </button>
-</p>
+	<h1> Qual o problema do cliente? </h1>
+		<p> <button id="config" > Sem acesso/Configuração </button> 
+		<button id="aut" > Erro de autenticação </button>/p>
+			
+	<div class="raut">
+		<p>Falei com o Sr(a) {{ nome }}
+		</br> Modem: {{ modem }}
+		</br> @ Vermelho 
+		</br> Feito powercyle 
+		</br> Encaminhado para a velox.</p>
+	</div>
 
-<div class="raut">
-<p>Falei com o Sr(a) {{ nome }}
-</br> Modem: {{ modem }}
-</br> @ Vermelho 
-</br> Feito powercyle 
-</br> Encaminhado para a velox.</p>
-</div>
-
-<div class="rconfig">
-<p>Falei com o Sr(a) {{ nome }}
-</br> Modem: {{ modem }}
-</br> Luzes OK
-</br> Feito powercyle 
-</br> Icone de rede: Sem acesso a internet 
-</br>Acesso a firmware OK
-</br> Feita configuração
-</br> Normalizado </p>
-</div>
+	<div class="rconfig">
+		<p>Falei com o Sr(a) {{ nome }}
+		</br> Modem: {{ modem }}
+		</br> Luzes OK
+		</br> Feito powercyle 
+		</br> Icone de rede: Sem acesso a internet 
+		</br>Acesso a firmware OK
+		</br> Feita configuração
+		</br> Normalizado </p>
+	</div>
 
 </body>
 </html>
