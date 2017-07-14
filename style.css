@@ -1,44 +1,27 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #000;
-}
-
-.container-cdf {
-  width: 50%;
-  height: 500px;
-  background: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  text-align: center;
-  padding: 20px 0;
+    padding: 20px 0;
+}
+
+input {
+    width: 13rem;
 }
 
 .nome {
-  margin-left: 70px;
+    margin-left: 80px;
+    margin-bottom: 5px;
 }
 
 h1 {
-  text-align: center;	
-  font-family: Arial Black;
-  padding-bottom: 10px
+    text-align: center;	
+    font-family: Arial Black;
+    padding-bottom: 10px
 }
 
-.botoes {
-  padding: 5px 0;
-  padding-left: 100px;
+article {
+    padding-bottom: 10px;
 }
-
-.procedimentos {
-  padding-left: 100px;
-}
-
-#apagar {
-  margin-top: 5px;
-  margin-left: 40%;
-}
-
