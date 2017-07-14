@@ -17,7 +17,8 @@ $(document).ready(function(){
 	$(".rconfig").hide();
 	$(".rant").hide();   
 	$(".rlento").hide();
-	$(".rwaut").hide()
+	$(".rwaut").hide();
+	$(".roti").hide(); 
     });
 
 	$(".raut").hide(); 
@@ -43,6 +44,11 @@ $(document).ready(function(){
 	$(".rwaut").hide(); 
     $("#waut").click(function(){
         $(".rwaut").show();
+    });
+
+	$(".roti").hide(); 
+    $("#oti").click(function(){
+        $(".oti").show();
     });
       
 });
@@ -144,6 +150,23 @@ $(document).ready(function(){
                                             </br> Não possui computador
                                             </br> Senha do wifi incorreta	
                                             </br> Encaminhado para a velox </p>
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="col-4">		
+                                    <article>				
+                                        <button id="oti" > Otimização do Computador</button>
+                                        <div class="roti">
+                                            <p>Falei com o Sr(a) {{ nome }}
+                                            </br> Modem: {{ modem }}
+                                            </br> Fiz acesso remoto
+                                            </br> Criado ponto de restauração
+                                            </br> Removido arquivos das pastas %temp%, temp e prefetch	
+                                            </br> Desinstalado programas desnecessarios
+                                            </br> Alterado programas e serviços que iniciam junto ao computador
+                                            </br> Feita limpeza de disco
+                                            </br> Deixei fazendo desfragmentação de disco</p>
                                         </div>
                                     </article>
                                 </div>
