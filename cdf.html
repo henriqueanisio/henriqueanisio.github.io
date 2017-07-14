@@ -17,6 +17,7 @@ $(document).ready(function(){
 	$(".rconfig").hide();
 	$(".rant").hide();   
 	$(".rlento").hide();
+	$(".rwaut").hide()
     });
 
 	$(".raut").hide(); 
@@ -37,6 +38,11 @@ $(document).ready(function(){
 	$(".rlento").hide(); 
     $("#lento").click(function(){
         $(".rlento").show();
+    });
+	
+	$(".rwaut").hide(); 
+    $("#waut").click(function(){
+        $(".rwaut").show();
     });
       
 });
@@ -124,6 +130,20 @@ $(document).ready(function(){
                                             </br> Desinstalado antivirus 
                                             </br> Resetado senha da conta oi
                                             </br> Deixei instalando o McAfee </p>
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="col-4">		
+                                    <article>				
+                                        <button id="waut" > Senha WIFI/Sem PC</button>
+                                        <div class="rwaut">
+                                            <p>Falei com o Sr(a) {{ nome }}
+                                            </br> Modem: {{ modem }}
+                                            </br> Luzes OK
+                                            </br> Não possui computador
+                                            </br> Senha do wifi incorreta	
+                                            </br> Encaminhado para a velox </p>
                                         </div>
                                     </article>
                                 </div>
