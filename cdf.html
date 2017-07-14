@@ -44,76 +44,96 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-<div class="container">
-	<div class="row">
-		<div class="container-cdf">
-			<div class="conteudo">
-				<div class="col-12">
-					<header>
-					Nome do cliente:
-						<input type="text" class="nome" ng-model="nome">
-					<p>Marca e modelo do modem: 
-						<input type="text" ng-model="modem"></p>
-					</header>
-				</div>
-				<h1> Qual o problema do cliente? </h1>
-				<div class="col-4">
-					<div class="botoes"> 	
-						<button id="config" > Sem acesso/Configuração </button> 
-						<button id="aut" > Erro de autenticação </button>
-						<button id="lento" > Internet Lenta </button> 
-						<button id="ant" > Instalação do Antivirus </button>
-					</div>
-				</div>
-				<div class="procedimentos">
-					<div class="raut">
-						<p>Falei com o Sr(a) {{ nome }}
-						</br> Modem: {{ modem }}
-						</br> @ Vermelho 
-						</br> Feito powercyle 
-						</br> Encaminhado para a velox.</p>
-					</div>
+<div class="bgfundo">
+    <div class="container">
+        <div class="row">
+                    <div class="col-12">
+                        <header>
+                        Nome do cliente:
+                            <input type="text" class="nome" ng-model="nome">
+                        <p>Marca e modelo do modem: 
+                            <input type="text" ng-model="modem"></p>
+                        </header>
+                    </div>
+        </div>
+    </div>
+    <section>
+    <div class="botoes"> 
+        <div class="container">
+            <h1> Qual o problema do cliente? </h1>
+            <div class="row">
 
-					<div class="rconfig">
-						<p>Falei com o Sr(a) {{ nome }}
-						</br> Modem: {{ modem }}
-						</br> Luzes OK
-						</br> Feito powercyle 
-						</br> Icone de rede: Sem acesso a internet 
-						</br>Acesso a firmware OK
-						</br> Feita configuração
-						</br> Normalizado </p>
-					</div>
+                                <div class="col-4">
+                                    <article>
+                                        <button id="config" > Sem acesso/Configuração </button>
+                                        <div class="rconfig">
+                                            <p>Falei com o Sr(a) {{ nome }}
+                                            </br> Modem: {{ modem }}
+                                            </br> Luzes OK
+                                            </br> Feito powercyle 
+                                            </br> Icone de rede: Sem acesso a internet 
+                                            </br> Acesso a firmware OK
+                                            </br> Feita configuração
+                                            </br> Normalizado </p>
+                                        </div>                          
+                                    </article>
+                                </div>
 
-					<div class="rlento">
-						<p>Falei com o Sr(a) {{ nome }}
-						</br> Modem: {{ modem }}
-						</br> Luzes OK
-						</br> Feito powercycle
-						</br> Fiz acesso remoto
-						</br> Acesso a firmware OK
-						</br> Fixado DNS
-						</br> Alterado canal do wifi
-						</br> Desativado WPS 
-						</br> Teste de velocidade # de # contratados
-						</br> Encaminhado para a velox</p>
-					</div>
+                                <div class="col-4">
+                                    <article>
+                                        <button id="aut" > Erro de autenticação </button>
+                                        <div class="raut">
+                                            <p>Falei com o Sr(a) {{ nome }}
+                                            </br> Modem: {{ modem }}
+                                            </br> @ Vermelho 
+                                            </br> Feito powercyle 
+                                            </br> Encaminhado para a velox.</p>
+                                        </div>
+                                    </article>
+                                </div>
 
-					<div class="rant">
-						<p>Falei com o Sr(a) {{ nome }}
-						</br> Modem: {{ modem }}
-						</br> Luzes OK
-						</br> Fiz acesso remoto
-						</br> Criado ponto de restauração
-						</br> Desinstalado antivirus 
-						</br> Resetado senha da conta oi
-						</br> Deixei instalando o McAfee </p>
-					</div>
-				</div>
-				<button id="apagar" > Apagar Procedimentos </button>
-			</div>
-		</div>
-	</div>
+                                <div class="col-4">
+                                <button id="lento" > Internet Lenta </button> 
+                                    <article>
+                                        <div class="rlento">
+                                            <p>Falei com o Sr(a) {{ nome }}
+                                            </br> Modem: {{ modem }}
+                                            </br> Luzes OK
+                                            </br> Feito powercycle
+                                            </br> Fiz acesso remoto
+                                            </br> Acesso a firmware OK
+                                            </br> Fixado DNS
+                                            </br> Alterado canal do wifi
+                                            </br> Desativado WPS 
+                                            </br> Teste de velocidade # de # contratados
+                                            </br> Encaminhado para a velox</p>
+                                        </div>
+                                    </article>
+                                </div>
+        </div>
+            <div class="row">
+                                <div class="col-4">		
+                                    <article>				
+                                        <button id="ant" > Instalação do Antivirus </button>
+                                        <div class="rant">
+                                            <p>Falei com o Sr(a) {{ nome }}
+                                            </br> Modem: {{ modem }}
+                                            </br> Luzes OK
+                                            </br> Fiz acesso remoto
+                                            </br> Criado ponto de restauração
+                                            </br> Desinstalado antivirus 
+                                            </br> Resetado senha da conta oi
+                                            </br> Deixei instalando o McAfee </p>
+                                        </div>
+                                    </article>
+                                </div>
+
+                        <div class="col-12">
+                        <button id="apagar" > Apagar Procedimentos </button>
+                        </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
