@@ -11,44 +11,34 @@
 <script src="js/angular-1.0.1.min.js"></script>
 
 <script>
-$(document).ready(function(){
-    $("#apagar").click(function(){
-        $(".raut").hide();
-	$(".rconfig").hide();
-	$(".rant").hide();   
-	$(".rlento").hide();
-	$(".rwaut").hide();
-	$(".roti").hide(); 
-    });
-
 	$(".raut").hide(); 
     $("#aut").click(function(){
-        $(".raut").show();
+        $(".raut").toggle();
     });
 
 	$(".rconfig").hide(); 
     $("#config").click(function(){
-        $(".rconfig").show();
+        $(".rconfig").toggle();
     });
 	
 	$(".rant").hide(); 
     $("#ant").click(function(){
-        $(".rant").show();
+        $(".rant").toggle();
     });
 	
 	$(".rlento").hide(); 
     $("#lento").click(function(){
-        $(".rlento").show();
+        $(".rlento").toggle();
     });
 	
 	$(".rwaut").hide(); 
     $("#waut").click(function(){
-        $(".rwaut").show();
+        $(".rwaut").toggle();
     });
 
 	$(".roti").hide(); 
     $("#oti").click(function(){
-        $(".roti").show();
+        $(".roti").toggle();
     });
       
 });
